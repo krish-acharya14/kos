@@ -1,6 +1,6 @@
 ASM= nasm
-src_dir= src
-build_dir= Build
+src_dir= ../src
+build_dir= .
 
 $(build_dir)/main_floppy.img : $(build_dir)/main.bin
 	cp $(build_dir)/main.bin $(build_dir)/main_floppy.img

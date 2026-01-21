@@ -8,7 +8,7 @@
 Let's now look at some of the basics before directly jumping into making of an OS.
 ---
 ## Boot Process
-- BIOS (Base Input Output System) initiates all the tasks, including on screen graphics as well as booting up the operating system.
+- BIOS (Basic Input Output System) initiates all the tasks, including on screen graphics as well as booting up the operating system.
 - BIOS can load an operating system into two ways:
     
     **1. Legacy Booting:** The BIOS loads the first block of data (the first sector) from each boot device into memory, until it finds a certain signature (0xAA55). Once it finds that signature, it jumps to the first instruction in the loaded block and this is where our operating system starts.
