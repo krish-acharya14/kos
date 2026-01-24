@@ -40,7 +40,6 @@ always:
 	mkdir -p $(BUILD_DIR)
 
 
-#Clean Target
 
 clean:
 	rm -rf $(BUILD_DIR)/*
